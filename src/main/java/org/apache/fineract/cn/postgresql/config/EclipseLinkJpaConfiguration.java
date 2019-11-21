@@ -52,6 +52,7 @@ import java.util.Map;
 @EnableTransactionManagement
 @EntityScan({
 		"org.apache.fineract.cn.**.repository",
+		"com.athenastars.**.repository",
 		"org.apache.fineract.cn.postgresql.util"
 })
 public class EclipseLinkJpaConfiguration extends JpaBaseConfiguration {
